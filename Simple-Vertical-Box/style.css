@@ -1,0 +1,45 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: auto;
+    max-width: 600px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 40px auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #dec0f1, #6a00f4);
+    color: #240046;
+}
+
+.main-heading {
+    font-style: italic;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sub-box {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    color: #6c757d;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sub-value {
+    font-weight: 700;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+}

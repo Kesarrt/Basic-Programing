@@ -1,0 +1,61 @@
+body {
+    font-family: "Arial";
+    background-color: rgb(255, 253, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+    height: 420px;
+    padding: 20px;
+    background: linear-gradient(135deg, rgb(139, 139, 255), rgb(0, 30, 129));
+    border: 2px solid rgb(190, 190, 190);
+    border-radius: 18px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+    /* ALIGN ITEMS IN THE CENTER */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.4;
+    padding: 0 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ffffff;
+    color: rgb(0, 30, 129);
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
